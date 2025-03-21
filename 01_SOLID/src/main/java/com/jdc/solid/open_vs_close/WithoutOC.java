@@ -11,3 +11,11 @@ public class WithoutOC {
 		System.out.println("Area of Rectangle : " + area.calculateArea(rectangle));
 	}
 }
+
+
+/*
+ဒီကုဒ်မှာ ပြဿနာ
+ပုံသဏ္ဍာန်အသစ် (ဥပမာ triangle) ထပ်ထည့်ချင်ရင် AreaCalculator ထဲက calculateArea မှာ if-else အသစ်ထပ်ရေးရမယ်။
+ဒါက ရှိပြီးသား ကုဒ်ကို ပြင်ဆင်ရတာဖြစ်လို့ OCP ကို ချိုးဖောက်တယ်။
+ပုံသဏ္ဍာန်များလာတာနဲ့အမျှ if-else တွေ အများကြီးဖြစ်လာပြီး ကုဒ်က ရှုပ်ထွေးလာမယ်။
+*/
